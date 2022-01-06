@@ -1,0 +1,8 @@
+* `for`: es una instruccion que nos permite hacer algo, una accion, todas las veces que se cumpla la condicion que le pasamos como parametro, cuando esa condicion es false, el bucle se termina de ejecutar. Por ejemplo
+ for (hay helado){
+	entonces, como helado.
+}
+* `&&`, `||`, `!`
+operador `&&` significa AND, este operador evalua dos expresiones y si las dos son verdaderas, retorna verdadero (TRUE)
+OPERADOR `||` significa OR, este operador evalua dos expresiones y si ALGUNA de las dos es verdadera o ambas son verdaderas, retorna verdadero (TRUE)
+operador `!` significa NO, es una negacion, evalua el valor booleano opuesto de lo que recibe como parametro. Esto quiere decir que si la expresion es verdadera, devuelve falso.
