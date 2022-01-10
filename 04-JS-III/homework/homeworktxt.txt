@@ -1,0 +1,4 @@
+	* Arrays son objetos que nos sirven para guardar una coleccion, pueden ser del mismo o de difernete tipo de datos.
+
+	Por ejemplo: var a = [];
+	a=["Hola", 1, 2 , 33, [0,1,2,3]];
