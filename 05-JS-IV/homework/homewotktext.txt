@@ -1,0 +1,24 @@
+	* Objetos, un objeto funciona como una plantilla, armamos una plantilla generica y a partir de ella podemos instanciarlas tatas veces como queramos.
+
+	* Propiedades las propiedades se acceden con la notacion dot.
+	Por ejemplo si un objeto usuario tiene una propiedad edad, para accederla bastara con hacer:
+	usuario.edad
+
+	* Métodos
+	Los metodos son funciones dentro de los objetos. Se declaran junto con las propiedades, por ejemplo:
+	const usuario ={
+	 edad,
+	 esMayodeEdad = function{
+	 	if(this.edad > 18){
+	 		return true;
+	 	}else{
+	 		return false;
+	 	}
+
+	 }
+	}
+	
+	* Bucle `for…in` se utiliza para recorrer todas las claves del  objeto, solo finaliza, cuando todas han sido recorridas.
+
+	* Notación de puntos vs notación de corchetes, la notacion de puntos es mucho mas parctica y simplificada, se uda para acceder a las propiedades de manera mas sencilla. Por ejemplo:
+	usuario.edad con la notacion de corchetes seria: usuario[edad]
