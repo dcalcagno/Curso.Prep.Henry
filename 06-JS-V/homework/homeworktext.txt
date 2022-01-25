@@ -1,0 +1,5 @@
+* `prototype`
+Toda clase tiene un prototype asociado con sus propiedades especificas, por ejemplo el prototype de array, tiene una propiedad llamada length, si yo defino un array nuevo y se que una propiedad particular, la voy a usar en diferentes tipos de array, me conviene, definir esa propiedad en prototype y asi, ahorrar espacio en memoria, no teniendo que definir mas de una vez, la misma propiedad. No solo es una buena practica de programacion, si no que ahorra memoria.
+
+* _Constructors_ (de Clases)
+Un constructor es el metodo que se encarga de crear y darle los valores iniciales a una nueva clase. 
